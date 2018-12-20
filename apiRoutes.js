@@ -6,8 +6,6 @@ module.exports = function (app){
     });
 };
 
-// app.post("/survey", function(request, response){
-//     for (var i = 0; i , response[i].scores.length; i++ )
-//      if()
-//      return
-// });
+//app.post("/api/friends", function(request, response) {
+// if()
+// else{}
