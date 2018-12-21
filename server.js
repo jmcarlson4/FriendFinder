@@ -18,20 +18,4 @@ app.listen(PORT, function() {
   
 
 
-// app.get("/", function (req, res) {
-//         res.sendFile(path.join(__dirname, "index.html"));
-//     });
 
-// app.get("./survey", function (req, res) {
-//     res.sendFile(path.join(__dirname, "./survey.html"));
-// });
-
-
-
-
-// app.post("/api/characters", function (req, res) {
-//     var newPerson = req.body;
-//     person.push(newPerson);
-
-//     res.json(newPerson);
-// });
