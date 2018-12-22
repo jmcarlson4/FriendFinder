@@ -27,7 +27,7 @@
                 <label for="link">Link to Personal Photo (Required)</label>
                 <input type="link" class="form-control" id="Photo">
             </div>
-            
+
             <h1><strong>Question 1</strong></h1>
             <h5>Do you like to go on walks?</h5>
             <div class="form-group">
@@ -154,7 +154,24 @@
             </div>
     </div>
     </div>
-
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Best Match</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!--<p></p> -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     </div>
     </div>
@@ -174,9 +191,7 @@
 
         $.post("/friends", newPerson,
             function (data) {
-//     for (var i = 0; i , response[i].scores.length; i++ )
-//      if()
-//      return
-});
+                //Need for loop to compare all scores to find best match
+            });
     });
-            </script>
+</script>
