@@ -189,9 +189,10 @@
         };
         console.log(newPerson);
 
-        $.post("/friends", newPerson,
-            function (data) {
-                //Need for loop to compare all scores to find best match
-            });
+        $.post("/friends", newPerson).then(function (data) {
+
+        })
+
     });
+
 </script>
