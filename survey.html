@@ -164,7 +164,8 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <!--<p></p> -->
+                    <h1 id = "name">Name</h1>
+                    <img id = "photo" src = "https://www.suave.com/Images/2072/2072-665335-Category%20Hero%20Images_Mens.png">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -190,7 +191,9 @@
         console.log(newPerson);
 
         $.post("/friends", newPerson).then(function (data) {
-
+//grab best match photo & change header on pop up
+$("#name").text(data.name);
+$("#photo").attr("src", data.photo);
         })
 
     });

@@ -18,7 +18,7 @@ var people = [
         name: "Jennifer",
         photo: "https://www.goredforwomen.org/wp-content/uploads/2012/12/TakeLegislative-Action-For-Women-And-Heart-Disease-700x395.jpg",
         scores: ["5", "5", "5", "5", "5", "5", "2", "1", "1", "5"]
-    },
+    }
 ];
 
-module.export = people;
+module.exports = people;
